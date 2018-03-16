@@ -1,6 +1,5 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: What we offer
@@ -11,6 +10,12 @@ description: >-
   anyone.
 intro:
   blurbs:
+    - image: /img/coffee-gear.png
+      text: >
+        We offer a small, but carefully curated selection of brewing gear and
+        tools for every taste and experience level. No matter if you roast your
+        own beans or just bought your first french press, you’ll find a gadget
+        to fall in love with in our shop.
     - image: /img/coffee.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
@@ -18,12 +23,6 @@ intro:
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
@@ -77,6 +76,13 @@ pricing:
     monthly subscription plans to receive great coffee at your doorstep each
     month. Contact us about more details and payment info.
   plans:
+    - description: Want a few tiny batches from different varieties? Try our custom plan
+      items:
+        - Whatever you need
+        - Green or roasted beans
+        - Unlimited varieties
+      plan: Custom
+      price: '??'
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
         - 3 lbs of coffee per month
@@ -91,11 +97,5 @@ pricing:
         - Up to 4 different varieties of beans
       plan: Big
       price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
 ---
+
